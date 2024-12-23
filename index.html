@@ -33,7 +33,7 @@
 							<li><a href="index.html">首页</a></li>
 							<li><a href="team.html">IMS team</a></li>
 							<li><a href="function.html">便捷功能</a></li>
-							<li><a href="404.html">最新动态</a></
+							<li><a href="404.html">最新动态</a></li>
 							<li><a href="shendanjie.html">圣诞节</a></li>
 						</ul>
 						<ul class="actions stacked">
@@ -52,9 +52,9 @@
 							</header>
 							<body>
 								<div class="container">
-									<h1>Welcome  to MAX server</h1>
+									<h2>Welcome  to MAX server</h2>
 								</div>
-								
+
 							</body>
 							<div class="content">
 								<p id="h1"></p>
@@ -63,22 +63,22 @@
 								</ul>
 							</div>
 						</div>
-						
+
 					</section>
 					<script>
 					window.onload=function starttime(){
-					        time(h1,'2024/2/12');   
-					        ptimer = setTimeout(starttime,1000); 
+					        time(h1,'2024/2/12');
+					        ptimer = setTimeout(starttime,1000);
 					}
 					    function time(obj,futimg){
-					        var nowtime = new Date().getTime(); 
-					        var futruetime =  new Date(futimg).getTime(); 
-					        var msec = nowtime-futruetime; 
-					        var time = (msec/1000);  
-					        var day = parseInt(time/86400); 
-					        var hour = parseInt(time/3600)-24*day;    
-					        var minute = parseInt(time%3600/60); 
-					        var second = parseInt(time%60); 
+					        var nowtime = new Date().getTime();
+					        var futruetime =  new Date(futimg).getTime();
+					        var msec = nowtime-futruetime;
+					        var time = (msec/1000);
+					        var day = parseInt(time/86400);
+					        var hour = parseInt(time/3600)-24*day;
+					        var minute = parseInt(time%3600/60);
+					        var second = parseInt(time%60);
 					        obj.innerHTML="MAX已运行"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+""
 					}
 					</script>
