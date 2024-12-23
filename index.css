@@ -14,7 +14,7 @@ body{
     outline: none;
 }
 }
-h2:hover{
+h3:hover{
     color: #fff;
     --c:lightseagreen;
     text-shadow: 0 0 10px var(--c),
