@@ -8,6 +8,11 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #06252e;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 76px;
+    outline: none;
 }
 .container{
     -webkit-box-reflect: below 1px -webkit-linear-gradient(transparent,rgba(0,0,0,0.2));
@@ -28,5 +33,4 @@ h1:hover{
         filter: hue-rotate(360deg);
     }
 }
-
 
