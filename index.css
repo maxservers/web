@@ -7,7 +7,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #06252e;
     letter-spacing: 15px;
     text-transform: uppercase;
     text-align: center;
@@ -17,7 +16,7 @@ body{
 .container{
     -webkit-box-reflect: below 1px -webkit-linear-gradient(transparent,rgba(0,0,0,0.2));
 }
-h1:hover{
+h2:hover{
     color: #fff;
     --c:lightseagreen;
     text-shadow: 0 0 10px var(--c),
@@ -33,4 +32,3 @@ h1:hover{
         filter: hue-rotate(360deg);
     }
 }
-
