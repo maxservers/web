@@ -3,15 +3,7 @@
     padding: 0;
 }
 body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 15px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 76px;
-    outline: none;
+
 }
 }
 h3:hover{
