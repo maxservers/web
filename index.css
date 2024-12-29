@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
-h3:hover{
+.logo:hover{
     color: #fff;
     --c:lightseagreen;
     text-shadow: 0 0 10px var(--c),
