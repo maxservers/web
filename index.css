@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.logo:hover{
+.logos{
+    font-size: 45px;
+    border-bottom: 4px solid #fff;
+}
+.logos:hover{
     color: #fff;
     --c:lightseagreen;
     text-shadow: 0 0 10px var(--c),
