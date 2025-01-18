@@ -100,8 +100,12 @@ body{
     border-radius: 50%;
     background: #cf455f;
     transform: translate(-50%,-50%);
-    /* 使用out动画，持续0.5秒，缓出的时间函数，停留在最后一帧 */
+    /*使用out动画，持续0.5秒，缓出的时间函数，停留在最后一帧*/
     animation: out 0.5s ease-out forwards;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
 }
 
 /* 动画 */
