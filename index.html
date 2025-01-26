@@ -60,7 +60,14 @@
 								</div>
 							</section>
 								</div>
-								<audio src="10 Équinoxe.flac" controls autoplay </audio>
+								<audio id="myAudio" src="10 Équinoxe.flac" controls></audio>
+    <button onclick="playAudio()">播放音频</button>
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
 
 				<!-- Contact -->
 					<footer id="footer">
