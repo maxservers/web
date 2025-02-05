@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizeing: border-box;
+    font-family:'Ubuntu',sans-serif;
 }
 .logos{
     font-size: 45px;
