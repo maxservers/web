@@ -73,3 +73,74 @@ p
   margin: 0
   padding-top: 0.625rem
   text-align: center
+  i:hover
+  cursor: pointer
+  
+.ic1:hover
+  color: #1da1f2
+  
+.ic2:hover
+  color: #3b5998
+  
+.ic3:hover
+  color: #4285f4
+  
+input
+  -webkit-appearance: none
+  -moz-appearance: none
+  background: none
+  border: 0
+  border-bottom: 2px solid $slate
+  font: 500 .9rem $title-text, sans-serif
+  height: 2.15em
+  margin-top: .7em
+  transition: all .15s ease-out
+  -webkit-transition: all .15s ease-out
+  width: 80%
+  
+input:focus
+  border-bottom: 2px solid $pink
+  outline: none
+  
+::-webkit-input-placeholder 
+  color: $slate
+::-moz-placeholder 
+  color: $slate
+\:-ms-input-placeholder 
+  color: $slate
+\:-moz-placeholder 
+  color: $slate
+  
+button
+  background: $pink
+  border: 0
+  border-radius: 1.4em
+  color: $white
+  font: 1.1rem $title-text
+  margin: 1.7em auto .6em
+  outline: none
+  padding: .6em
+  transition: all .15s ease-out
+  -webkit-transition: all .15s ease-out
+  width: 80%
+    
+button:hover
+  background: $charcoal
+  cursor: pointer
+  
+button:focus
+  outline: none
+
+.foot-txt
+  color: $slate
+  font: 500 .85rem $title-text
+  padding: .3em
+  
+.foot-txt:hover
+  cursor: pointer
+  text-decoration: underline
+  
+  
+.bold
+  font-weight: 600
+  
