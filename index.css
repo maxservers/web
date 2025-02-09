@@ -19,11 +19,11 @@
     animation: animate 5s linear infinite;
 
 }
-.logos{
+.logoes{
     font-size: 45px;
     border-bottom: 4px solid #fff;
 }
-.logos:hover{
+.logoes:hover{
     color: #fff;
     --c:lightseagreen;
     text-shadow: 0 0 10px var(--c),
