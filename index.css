@@ -20,9 +20,11 @@
 
 }
 .logoes{
-    font-size: 500px;
+    font-size:200px;
     height:200;
     width:250;
+    top：100；
+    left：125；
 }
 .logoes:hover{
     color: #fff;
